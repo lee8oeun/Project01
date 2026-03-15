@@ -10,7 +10,7 @@ public:
     ~Terrain();
     void load(const char* path);
     void setup();
-    void draw();
+    void draw(); //하라라
 
 private:
     GLuint vao, vbo, ibo, textureID;
